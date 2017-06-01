@@ -14,8 +14,9 @@ img{
 
 }
 }
+/*
 @media only screen and (min-width : 1024px) {
-
+  ipad to ipad pro 
 
 img{
 	width: 100px;
@@ -23,8 +24,7 @@ img{
 
 }
 
-}
-
+}*/
 .navigation{
 	position: fixed;
 	height: 30px;
