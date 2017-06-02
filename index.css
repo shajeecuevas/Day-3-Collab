@@ -1,0 +1,64 @@
+.navigation{
+	position: fixed;
+	height: 30px;
+	top:0px;
+	width: 100%;
+	background-color: #41e5f4;
+	z-index: 10;
+	left: 0px;
+
+
+}
+
+.buttons{
+	display: inline-block;
+	float: left;
+	z-index: 20;
+	color:black;
+	word-spacing: 20px;
+	font-size: 25px;
+
+}
+
+.donate{
+	display: inline-block;
+	float:right;
+}
+
+footer {
+	bottom: 0px;
+	position: absolute;
+	background-color: #41e5f4;
+	width: 100%;
+	left: 0px;
+}
+
+
+p.copyright{
+ 	text-align: center;
+ 	position: relative;
+
+}
+p.info {
+	margin-left: 50px;
+	position: relative;
+
+}
+
+a:hover{
+	opacity: .3;
+	color:black;
+
+
+}
+a:active{
+	opacity: 1;
+	color:black;
+}
+a:link{
+	color:black;
+	text-decoration: none;
+}
+a:visited{
+	color:black;
+}
