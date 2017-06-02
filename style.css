@@ -144,7 +144,7 @@ body {
 	display: inline-block;
 	float:right;
 }
-
+/*
 footer {
 	position: absolute;
 }
@@ -158,7 +158,7 @@ p.info {
 	position: relative;
 
 }
-
+*/
 a:hover{
 	opacity: .3;
 	color:black;
