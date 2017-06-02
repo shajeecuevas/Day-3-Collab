@@ -1,3 +1,23 @@
+@media only screen and (max-width: 320px){
+	.donate img{
+		width: 75px;
+		height: 30px;
+	}
+
+		p img{
+		width: 300px;
+		height: 150px;
+
+	}
+	}
+@media only screen and (min-width: 1024px){
+	p img{
+		width: 1000px;
+		height: 300px;
+	}
+}
+
+
 .navigation{
 	position: fixed;
 	height: 30px;
@@ -20,17 +40,37 @@
 
 }
 
+
 .donate{
 	display: inline-block;
 	float:right;
 }
 
+.information{
+	width: 80%;
+	margin: 0 auto;
+	height: auto;
+
+}
+.information h1{
+	font-family: "Georgia", serif;
+	text-align: left;
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+article{
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-family: "Georgia",serif;
+}
 footer {
-	bottom: 0px;
 	position: absolute;
 	background-color: #41e5f4;
 	width: 100%;
 	left: 0px;
+	
+
 }
 
 
@@ -45,6 +85,11 @@ p.info {
 
 }
 
+p.donation{
+	display: inline;
+	font-size: 25px;
+	text-align: right;
+}
 a:hover{
 	opacity: .3;
 	color:black;
